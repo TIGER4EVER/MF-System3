@@ -9,7 +9,7 @@ const fs = require("fs");
 const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const discord_token = "NTM5Mzg1MDAwMTYwOTE5NTUz.DzBlCA.lL0hsKmF1DH9efvL_N4sUKThEr8";
+const discord_token = "NTQwMTQxMjQwMDIxNDE3OTk0.DzMlaA.d1slZwrUXMjZcOJx2opvb1QtaQs";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
