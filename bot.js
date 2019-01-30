@@ -10,13 +10,14 @@ const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
 const discord_token = "NTQwMTQxMjQwMDIxNDE3OTk0.DzMlaA.d1slZwrUXMjZcOJx2opvb1QtaQs";
+
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = [`${client.guilds.size} Server`,' Premium Bot™ by Tiger','Type -help |-support |-invite ',`${client.users.size} Members`,'-invite','By: Tiger| BaronTube'];
+    var setGame = [`${client.guilds.size} Server`,' Premium Bot™ by Tiger&jamika','Type -help |-support |-invite ',`${client.users.size} Members`,'-invite','By: Tiger&jamika| BaronTube'];
     var i = -1;
     var j = 0;
     setInterval(function (){
